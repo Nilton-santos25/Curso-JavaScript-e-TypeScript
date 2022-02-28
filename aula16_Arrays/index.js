@@ -5,7 +5,6 @@ alunos.push('Jurema');
 alunos.push('Maria Clara');
 
 console.log(typeof alunos);
-console.log(alunos instanceof Array);
 
 // console.log(alunos.slice(0, 3)); //fatiando o array
 // console,log(alunos.slice(0, -2));
@@ -20,8 +19,8 @@ console.log(alunos instanceof Array);
 // alunos.pop(); //remove elementos do final do array
 // console.log(alunos);
 
-//alunos.pop(); //remove índice do fim
-//alunos.shift(); //remove o indice no começo
+// alunos.pop(); //remove índice do fim
+// alunos.shift(); //remove o indice no começo
 
 // alunos[0] = 'Eduardo'; //editar o valor do array
 // alunos.unshift('Adolfo'); //adicionando no início
