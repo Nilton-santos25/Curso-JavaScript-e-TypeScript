@@ -5,7 +5,7 @@ const pessoa1 = {
 
     fala() {
         console.log(`${this.nome} ${this.sobrenome} está falando oi...`);
-        console.log(`A minha idade atual é ${this.idade}`)
+        console.log(`A minha idade atual é ${this.idade}`);
     },
 
     incrementaIdade() {
