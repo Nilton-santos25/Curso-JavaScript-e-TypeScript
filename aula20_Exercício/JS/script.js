@@ -12,6 +12,7 @@ function meuEscopo() {
         const peso = form.querySelector('.peso');
         const altura = form.querySelector('.altura');
 
+        //inserindo os objetos dentro do array pessoas
         pessoas.push({
             nome: nome.value,
             sobrenome: sobrenome.value,
