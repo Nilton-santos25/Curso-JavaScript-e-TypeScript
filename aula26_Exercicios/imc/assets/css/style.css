@@ -57,3 +57,22 @@ form button {
 form button:hover {
     background-color: var(--primary-color-darker);
 }
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 10pt;
+    font-weight: bold;
+}
+td, th {
+    text-align: left;
+    padding: 3px;
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(96, 165, 90);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(162, 58, 58) ;
+}
