@@ -12,9 +12,13 @@ function meuEscopo() {
         const horas = atual.getHours();
         const minutos = atual.getMinutes();
 
-        resultado.innerHTML = `<p><h1>${dia}, ${data} de ${mes} de ${ano} ${horas}:${minutos} </p></h1>`;
+        resultado.innerHTML = `<p><h1>${dia}, ${zeroAEsquerda(data)} de ${mes} de ${ano} ${horas}:${minutos} </p></h1>`;
     }
     getDate()
+
+    function zeroAEsquerda(num){
+        return num >= 10 ? num : `0${num}`;
+    }
 
     function getToday() {
         const day = new Date();
