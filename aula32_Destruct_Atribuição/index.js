@@ -12,4 +12,4 @@ console.log(lista3[2]);
 // console.log(um, dois, tres);
 
 // //...rest , ...spread
-// console.log(resto); //pegando o resto do array com o operador rest
+// console.log(resto); //pegando o resto do array com o operador rest 
