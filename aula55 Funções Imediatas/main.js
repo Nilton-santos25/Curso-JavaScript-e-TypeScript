@@ -15,3 +15,8 @@
 })(26, 70, 1.76);
 
 
+/*(function () {
+    var nome = "Felipe";
+})();
+// A variável nome não é acessível fora do escopo da expressão 
+*/
